@@ -1,0 +1,154 @@
+#body{
+    margin: 0;
+    padding: 0;
+}
+
+#main .carousel-inner img{
+    max-height: 80vh;
+    object-fit: cover;
+    filter:grayscale(80%)
+}
+
+#carousel{
+    position: relative; /*Para que se adapte a la pantalla*/
+}
+
+.overlay {
+    position:absolute; /* Para que se adapta al caruosel*/
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    
+}
+
+#text-llamado{
+    color: #D6D5C9 !important;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#header{
+    background-color: #0A100D;
+    
+}
+#header a{
+    color: #D6D5C9;
+    font-family: "Roboto", Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#logo{
+    max-height: 60px;
+    max-width: 60px;
+}
+
+#footer{
+    background-color: #0A100D;
+    top: 100px;
+}
+
+#carusel{
+    max-height: 80vh;
+    object-fit: cover;
+    filter: sepia(30%);
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 500px;
+    
+
+}
+.container{
+    max-width:840px;
+    margin: 0 auto 8px auto;
+    text-align: right;
+}
+.card{
+    position: absolute;
+    left: 80px; 
+}
+#novedades-marca{
+    background-color: #080A2A;
+    color: #D6D5C9;
+}
+
+#novedades-marca img{
+    max-width: 100%;   
+}
+#boton-alterno{
+    background-color: #080A2A;
+    border-color: #FA4343;
+    color: #D6D5C9;
+}
+#boton{
+    background-color: #080A2A;
+    border-color: #FA4343;
+    color: #D6D5C9;
+}
+#agentesbt{
+    background-color: #080A2A;
+    border-color: #0A100D;
+    color: #D6D5C9;
+}
+#mapasbt{
+    background-color: #080A2A;
+    border-color: #0A100D;
+    color: #D6D5C9;
+}
+#conviertete-en-creador{
+    background-color: #080A2A;
+    color: #FFFFFF;
+}
+
+#conviertete-en-creador label{
+    color: #000814;
+}
+#enviarbt{
+    background-color: #FA4343;
+    border-color: #0A100D;
+    color: #D6D5C9;
+}
+#btntwitter{
+    width: 50px;
+    height: 50px;
+}
+#btninsta{
+    width: 50px;
+    height: 50px;
+}
+#btnfacebook{
+    width: 50px;
+    height: 50px;
+}
+#btntwittera{
+    background-color: #0A100D;
+    border-color: #0A100D;
+    color: #D6D5C9;
+}
+#btninstaa{
+    background-color: #0A100D;
+    border-color: #0A100D;
+    color: #D6D5C9;
+}
+#btnfacebooka{
+    background-color: #0A100D;
+    border-color: #0A100D;
+    color: #D6D5C9;
+}
+#clutch{
+    background-color: #080A2A;
+    border-color: #0A100D;
+    color: #D6D5C9;
+}
+#spike{
+    background-color: #080A2A;
+    border-color: #0A100D;
+    color: #D6D5C9;
+}
+#VCT{
+    background-color: #080A2A;
+    border-color: #0A100D;
+    color: #D6D5C9;
+}
